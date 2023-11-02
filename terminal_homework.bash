@@ -21,4 +21,8 @@
     4) cp storm_trooper.txt ../tatooine 
 
     //Part 4: mv -move
+    1) mv luke.txt ben_kenobi.txt millenium_falcon
+    2) mv millenium_falcon ..
+    3) mv millenium_falcon death_star
+    4) mv princess_leia millenium_falcon
     
