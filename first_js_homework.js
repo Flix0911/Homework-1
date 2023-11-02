@@ -71,4 +71,13 @@ console.log("b + c" == g)
 //
 //console.log(letters); //this is what will execute the above and can be viewed in the terminal
 
+//Section 4
 
+//1.A for loop performs the same operation as a while loop. But what are the key differences, if any? What are the similarities?
+//A: A 'for' loop is used when you know the number of times you need to continue the sequence of elements (1/2/3/etc stopping at 10). On the other hand, the while loop is better when you are unsure where it should stop.
+//A.pt2: When researching more, useful when you are unsure what data may be inputed by the individual inputting 
+//Feels like a weak answer
+
+for (let i = 0; i < 1000; i++) {
+    console.log(i);
+}
