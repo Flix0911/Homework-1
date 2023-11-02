@@ -61,15 +61,17 @@ console.log("b + c" == g)
 //No, this is not an infinate loop. It would be an infinate loop if runProgram = false; wasn't there. That itself is turning it false and killing the loop
 
 //3.
-//let letters = "A"; //variable defined as A
-//let i = 0; //interger is set to 0
-//
-//while (i < 20) { //This will run as long as i is less than 20
-//	letters += "A"; //add "1" to A. My assumption (not 100% on this) is that it will go a/b/c/d/etc until 19, and stop there
-//	i++; //See above comment
-//}
-//
-//console.log(letters); //this is what will execute the above and can be viewed in the terminal
+let letters = "A"; //variable defined as A
+let i = 0; //interger is set to 0
+
+while (i < 20) { //This will run as long as i is less than 20
+	letters += "A"; //add "1" to A. My assumption (not 100% on this) is that it will go a/b/c/d/etc until 19, and stop there
+	i++; //See above comment
+}
+
+console.log(letters); //this is what will execute the above and can be viewed in the terminal
+
+//Post running the above block. I thought it would do a/b/c/etc but it just ran AAAAAA. I was almost right but made an assumption that it would run through the alphabet. No assumptions next time!
 
 //Section 4
 
@@ -77,6 +79,13 @@ console.log("b + c" == g)
 //A: A 'for' loop is used when you know the number of times you need to continue the sequence of elements (1/2/3/etc stopping at 10). On the other hand, the while loop is better when you are unsure where it should stop.
 //A.pt2: When researching more, useful when you are unsure what data may be inputed by the individual inputting 
 //Feels like a weak answer
+
+//for (let i = 0; i < 100; i++) {
+//	console.log('Without you, today\'s emotions are the scurf of yesterday\'s');
+//}
+//1. First part is let i = 0 - initially code supplied to the loop
+//2. What is the condition of when it runs? In this case, i, which starts at 0 will run until 99, because it will end when i is no longer < 100. 100 == 100, so 99 < 100 
+//3. This is the repeating expression and what it will do. In this case i will add "++". To harp back to #2, this will go until i is no longer < 100
 
 for (let i = 0; i < 1000; i++) {
     console.log(i);
