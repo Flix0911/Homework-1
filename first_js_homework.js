@@ -61,3 +61,14 @@ console.log("b + c" == g)
 //No, this is not an infinate loop. It would be an infinate loop if runProgram = false; wasn't there. That itself is turning it false and killing the loop
 
 //3.
+//let letters = "A"; //variable defined as A
+//let i = 0; //interger is set to 0
+//
+//while (i < 20) { //This will run as long as i is less than 20
+//	letters += "A"; //add "1" to A. My assumption (not 100% on this) is that it will go a/b/c/d/etc until 19, and stop there
+//	i++; //See above comment
+//}
+//
+//console.log(letters); //this is what will execute the above and can be viewed in the terminal
+
+
