@@ -45,3 +45,19 @@ console.log(g)
 console.log("b + c" == g)
 
 //Section 3
+
+//1.
+//while (true) {
+//	console.log('Do not run this loop');
+//}
+//Yes this is an infinate loop. This will continue to run because it will always be true. It is not running against anything that will hit an end point, it will go forever
+
+//2.
+//const runProgram = true;
+//while (runProgram) {
+//	console.log('Do not run this loop');
+//	runProgram = false;
+//}
+//No, this is not an infinate loop. It would be an infinate loop if runProgram = false; wasn't there. That itself is turning it false and killing the loop
+
+//3.
