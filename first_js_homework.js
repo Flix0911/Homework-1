@@ -13,7 +13,7 @@ const c = 57;
 const d = 16;
 const e = 'Kelvin';
 const f = false;
-let g = 0;
+var g = 0;
 
 //1. a is less than b
 console.log(a < b)
@@ -39,10 +39,14 @@ console.log(f != e)
 //8. added above
 
 //9.
-console.log(g)
+console.log(g) //9 and 10 cannot be correct. I'm just changing the value from above to below and didn't use const which is firm - not confident in this
 
 //10.
-console.log("b + c" == g)
+var g = 100
+console.log(b + c == g)
+
+
+
 
 //Section 3
 
@@ -89,6 +93,18 @@ console.log(letters); //this is what will execute the above and can be viewed in
 
 for (let i = 0; i < 1000; i++) {
     console.log(i);
+}
+
+//For loop in reverse
+
+for (let i = 999; i > 0; i--) {
+    console.log(i)
+}
+
+//More counting
+
+for (let i = 1; i < 11; i++) {
+    console.log("The value of i is:" + " ()" + " of 10")
 }
 
 //Section 5
