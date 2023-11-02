@@ -90,3 +90,5 @@ console.log(letters); //this is what will execute the above and can be viewed in
 for (let i = 0; i < 1000; i++) {
     console.log(i);
 }
+
+//Section 5
