@@ -104,7 +104,17 @@ for (let i = 999; i > 0; i--) {
 //More counting
 
 for (let i = 1; i < 11; i++) {
-    console.log("The value of i is:" + " ()" + " of 10")
+    console.log("The value of i is: " + i + " of 10")
 }
 
+//Iteration
+
+const StarWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];
+for (let i = 0; i < StarWars.length; i++) {
+    console.log(StarWars[i])
+}
+
+for (let i = 0; i < StarWars.length; i++) {
+    console.log(StarWars[i] + i)
+}
 //Section 5
