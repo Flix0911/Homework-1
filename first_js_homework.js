@@ -117,4 +117,4 @@ for (let i = 0; i < StarWars.length; i++) {
 for (let i = 0; i < StarWars.length; i++) {
     console.log(StarWars[i] + i)
 }
-//Section 5
+//Section 5 - see terminal_homework.bash
