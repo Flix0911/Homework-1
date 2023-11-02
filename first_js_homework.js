@@ -1,9 +1,12 @@
+//Section 1
+
 //1. What does the acronym DRY stand for? Why should we pay attention to it? What programming tools have we learned to write DRY code?
 //DRY = don't repeat yourself ~ avoid or reduce repetition. So far, we have used Visual Studio for this
 
 //2. What is the difference between const and let and var? Please limit your answer to no more than three short sentences. Don't be afraid to research using google and other resources
 //Const creates a variable that cannot be reassigned another value. On the other hand, var and let create variables that CAN be resassigned another value
 
+//Section 2
 const a = 4;
 const b = 53;
 const c = 57;
@@ -40,3 +43,5 @@ console.log(g)
 
 //10.
 console.log("b + c" == g)
+
+//Section 3
