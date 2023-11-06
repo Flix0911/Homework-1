@@ -27,21 +27,24 @@ console.log('name' == 'name')
 //4. a is less than b which is less than c
 console.log(a < b < c)
 
-//5. e ('kelvin') is not equal to 'kelvin' //not 100% about this, I would think it is true but it runs false when put as ==
+//5. a * a equals d
+console.log(a * a === d)
+
+//6. e ('kelvin') is not equal to 'kelvin' //not 100% about this, I would think it is true but it runs false when put as ==
 console.log(e != 'kelvin')
 
-//6. 48 is == to '48' //Same thing, I would think this would be != but that comes up as false. Not 100% sure as to why on this
+//7. 48 is == to '48' //Same thing, I would think this would be != but that comes up as false. Not 100% sure as to why on this
 console.log(48 == '48')
 
-//7. f or false is not equal to e or kelvin
+//8. f or false is not equal to e or kelvin
 console.log(f != e)
 
-//8. added above
-
-//9.
-console.log(g) //9 and 10 cannot be correct. I'm just changing the value from above to below and didn't use const which is firm - not confident in this
+//9. added above
 
 //10.
+console.log(g) //9 and 10 cannot be correct. I'm just changing the value from above to below and didn't use const which is firm - not confident in this
+
+//11.
 var g = 100
 console.log(b + c == g)
 
